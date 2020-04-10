@@ -1,0 +1,325 @@
+
+
+<!doctype html>
+<html>
+<head>
+<style>
+#left {
+    float: left;
+    text-align: left;
+    padding-right: 10px;	
+}
+#right {
+    float: right;
+    text-align: right;
+    padding-left: 10px;
+}
+#center {
+ text-align: center;
+}
+
+div.left-align{
+width: 25%;
+float: left;
+background: aqua;
+}
+div.right-align {
+width: 25%;
+float: right;
+background: #7FFFD4;
+}
+div.center-align {
+width: 100%;
+marrgin: 0 auto;
+background: silver;
+}
+.btn {
+  background-color: DodgerBlue; 
+  border: none;   /* Remove borders */
+  color: white;  /* White text */
+  padding: 12px 16px;     /* Some padding */
+  font-size: 16px;    /* Set a font size */
+  cursor: pointer;    /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+img {
+  width: 80%;
+  height: auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=password], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+</style>
+</head>
+<body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="about-section">
+  <h1>Welcome....</h1>
+  <p>Fastest and Easiest Way of Paying the Bills</p>
+  <p>Beware of <b>Frauds,</b> Never Share your ATM card details to anyone.</p>
+</div>
+<div id="center"><button class="btn"><i class="fa fa-home"></i> Home</button>&emsp;
+<button class="btn"><i class="fa fa-refresh"></i> Refresh</button></div>
+<div class="left-align">
+<p class="medium-font">
+<div id="center"><img src="D:\electricity.jfif" ></div>
+<div id="center"><b><h1>Login</h1></b></div>
+&emsp; <b> Username:</b><input type="text"placeholder="enter your username "><br><br>
+&emsp; <b> Password: </b> <input type="password"placeholder="enter your password"><br><br>
+&emsp; &emsp;      <form action="D:\html\submitfile.html">
+         <button type="submit">Submit</button>
+		<form action="D:\html\reset.html">
+        	 <button type="submit">Reset</button>
+
+&emsp;&emsp;&emsp;<a href="D:\html\forgetpassword.html">Forget Password?</a><br><br>
+</p>
+</div>
+<div class="right-align">
+<p class="medium-font">
+<div id="center"><img src="D:\quick links.jfif" ></div><br>
+<div id="center"><a href="D:\html\pay your bills.html">Pay Your Bills</a></div><br><br>
+<div id="center"><a href="D:\html\consumption history.html">Consumption history</a></div><br><br>
+<div id="center"><a href="D:\html\quick nearest services.html">Quick Nearest services</a></div><br><br>
+<div id="center"><a href="D:\html\new connection.html">New connections</a></div>
+</p>
+</div>
+<div class="center-align">
+<p class="medium-font">
+<div id="center"><h1><b><i><u>21 ways to safe electricity</h1></b></i></u></div><br>
+<div id="center">1.<b> Turn off unnecessary lights:-</b>
+Two 100-watt incandescent bulbs switched off an extra two hours per day could save you $15 over a year. Better yet, switch to LED.</div>
+<div id="center">2. <b>Use natural light:-</b>
+A single south-facing window can illuminate 20 to 100 times its area. Turning off one 60-watt bulb for four hours a day is a $9 saving over a year.</div>
+<div id="center">3.<b> Use task lighting:-</b>
+Turn off ceiling lights and use table lamps, track lighting and under-counter lights in work and hobby areas as well as in kitchens</div>
+<div id="center">4. <b>Take shorter showers:-</b>
+Hot water is expensive. If two people in your home cut their shower time by a minute each, you could save $30 over a year</div>
+<div id="center">5. <b>Turn water off when shaving, washing hands, brushing teeth:-</b>
+Reduce your hot water usage by 5% to save about $19.</div>
+<div id="center">6. <b>Fix that leaky faucet:-</b>
+Fixing a hot water leak in your faucet can save up to $9 per year in energy costs.</div><br>
+<div id="center">7. <b>Unplug unused electronics:-</b>
+Standby power can account for 10% of an average household's annual electricity use. Unplug unused electronics and save $50 a year.</div><br>
+<div id="center">8. <b>Ditch the desktop computer:-</b>
+If you're still using that old desktop, recycle it and switch to your laptop. If you use your laptop two hours per day, you'll save $4 over a year.</div><br>
+<div id="center">9.<b> Not home? Turn off the air conditioner:-</b>
+Turn off that old window unit air conditioner for five hours a day while you're away. Do that for 60 days over a summer and you'll save $16.</div><br>
+<div id="center">10.<b> Recycle or donate that old TV:-</b>
+ Recycle or donate your old T.V.. Even if you're just using it an hour a day, that 42-inch LCD is costing you six bucks a year.</div><br>
+<div id="center">11.<b> Manage your thermostat:-</b>
+If you have electric heat, lower your thermostat by two degrees to save 5% on your heating bill. Lowering it five degrees could save 10%.</div><br>
+<div id="center">12. <b>Be strategic with window coverings:-</b>
+Promote airflow through your home and block the afternoon sun. You could save you up to $10 (2 fans) or $45 (1 window unit AC) during the summer.</div><br>
+<div id="center">13. <b>Reduce heat in the kitchen:-</b>
+Avoid using the oven in summer – try salads, smoothies or barbecue. You'll reduce the heat in your home and save on your home cooling costs.</div><br>
+<div id="center">14.<b> Run full loads:-</b>
+Cut one load of wash per week, even if you're already using cold water only, and you could save $18 a year on your laundry costs.</div><br>
+<div id="center">15. <b>Wash laundry in cold:-</b>
+By switching from hot to cold water for an average of three loads per week, you could save up to $22 per year on your energy bill.</div><br>
+<div id="center">16. <b>Hang dry your laundry:-</b>
+If you do eight loads of laundry a week and use your clothesline for 50% of those clothes, you could save $65 a year.</div><br>
+<div id="center">17-<b>Toss a towel in the dryer:-</b>
+A dry towel added to your dryer load can significantly reduce drying times. If you're doing seven loads a week this could save you $27 a year.</div><br>
+<div id="center">18.<b> Be efficient with refrigeration:-</b>
+Keep your fridge and freezer at their ideal temperature. For your fridge this is between 2°C and 3°C and your freezer should be at -18°C.</div><br>
+<div id="center">19.<b> Unplug your second fridge:-</b>
+Unplug that second fridge and save up to $55 a year. Freeze plastic jugs of water and use them in a cooler when you need them.</div><br>
+<div id="center">20.<b> Skip the heat-dry setting for the dishwasher:-</b>
+That heat-dry setting is expensive. De-select it and, based on one load of dishes a day, save up to $27 for the year.</div><br>
+<div id="center">21. <b>Use the microwave, crock pot or toaster oven:-</b>
+A microwave takes 15 minutes to do the same job as 1 hour in an oven. Use a microwave instead of your oven 4 times a week and save $13/year.</div><br>
+</p>
+</div>
+<div id="center"><h1><b>Contact Us</h1></b></div>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+<option value="germany">Germany</option>
+<option value="india">India</option>
+<option value="nepal">Nepal</option>
+<option value="Japan">Japan</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="D:\abhijeet1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Abhijeet Srivastava</h2>
+        <p class="title">HTML Programmer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>abhijeet@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="D:\aryan1.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Aryan Singh</h2>
+        <p class="title">CSS Programmer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mahesh@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="D:\mahesh1.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Naga Sai Mahesh</h2>
+        <p class="title">Java Script Programmer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>aryan@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
